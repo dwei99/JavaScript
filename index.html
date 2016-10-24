@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+    var x = [3,5,"dojo","rocks","michael","sensei"];
+    function print(arr){
+      arr.push(100);
+      arr.push(["new","array"]);
+      for(var i = 0; i<arr.length; i++){
+        console.log(arr[i]);
+      }
+      return arr;
+    }
+    </script>
+    <script>
+    function sum(){
+      var num = 0;
+      for(var i = 0; i < 501; i++){
+        num = num + i;
+      }
+      return num;
+    }
+    </script>
+    <script>
+     var array = [1,5,90,25,-3,0];
+     var min = 0;
+     var avg = 0;
+     function doesThings(arr){
+       for (var i = 0; i < array.length; i++)
+       {
+          if (arr[i]< min) {
+            min = arr[i];
+            }
+            avg += arr[i];
+        }
+       avg = avg/arr.length;
+      var string = ([min,avg])
+      return string;
+     }
+
+    </script>
+    <meta charset="utf-8">
+    <title>JS fundamentals</title>
+  </head>
+  <body>
+    <script>
+    document.write(print(x));
+   </script>
+   <script>
+   document.write(sum());
+   </script>
+   <script>
+   document.write(doesThings(array));
+   </script>
+  </body>
+</html>
