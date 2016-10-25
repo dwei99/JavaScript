@@ -1,16 +1,6 @@
-/*
-function sum(){
-  var num = 0;
-  for(var i = 0; i < 501; i++)
-    {
-    num = num + i;
-    }
-  return num;
-}
-*/
 //Create a simple problems from JS Fundamentals Part 1 into functions that take variable inputs
 // Standalone Function
-/*
+
 function sumbetween(x, y){
   var sum = 0;
   //var index = x+1;
@@ -101,10 +91,9 @@ var findMin = {
 }
 var arr = [1,67,-10,-54,1000,123];
 findMin.findMin(arr);
-*/
 /*
 Write a loop that will go through an array, find the average of all the values, and then return it
-
+*/
 //Standaone function
 function findAvg(arr){
   var avg = 0;
@@ -142,7 +131,7 @@ var findAvg = {
   }
 }
 findAvg.avg(arr);
-*/
+
 var car = {
   'doors': 2
 }
@@ -152,7 +141,6 @@ var person = {
   name: "Trey",
   distance_traveled: 0,
   say_name: console.log((this.name)),
-  //say_name:
   say_something: function(str){
     console.log("Who's there "+ str)},
   walk: function()
@@ -171,7 +159,7 @@ var person = {
     console.log("Trey is crawling "+ person.distance_traveled);
   }
 }
-
+console.log(person.name);
 console.log(person.crawl());
 console.log(person.run());
 console.log(person.walk());
